@@ -1,0 +1,21 @@
+Changes for Perl::Tidy::Sweetend
+
+0.15 - Wed Nov 28 17:53:06 EST 2012
+    Adds missing prereq
+
+0.14 - Wed Sep  5 14:54:50 EDT 2012
+    Fixes lingering typos
+
+0.13 - Wed Sep  5 14:51:21 EDT 2012
+    Fixes lingering typos
+
+0.12 - Tue Sep  4 22:39:26 EDT 2012
+    Fixes typo in package name, adds pod and comments
+
+0.11 - Tue Sep  4 20:03:08 EDT 2012
+    Improves testing setup and implements formatting for "func"
+
+0.10 - Wed Aug 22 11:53:23 EDT 2012
+    Initial implementation. Much of the code and the idea come from
+    Jonathan Swartz's blog post: 
+    http://www.openswartz.com/2010/12/19/perltidy-and-method-happy-together/
