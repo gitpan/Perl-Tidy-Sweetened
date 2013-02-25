@@ -36,7 +36,7 @@
    "provides" : {
       "Perl::Tidy::Sweetened" : {
          "file" : "lib/Perl/Tidy/Sweetened.pm",
-         "version" : "0.16"
+         "version" : "0.17"
       }
    },
    "release_status" : "stable",
@@ -51,5 +51,5 @@
          "url" : "http://github.com/mvgrimes/perl-tidy-sweetened"
       }
    },
-   "version" : "0.16"
+   "version" : "0.17"
 }
