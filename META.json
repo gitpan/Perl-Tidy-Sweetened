@@ -29,18 +29,18 @@
       "runtime" : {
          "requires" : {
             "Perl::Tidy" : "0",
-            "perl" : "5.008"
+            "perl" : "5.010"
          }
       }
    },
    "provides" : {
       "Perl::Tidy::Sweet" : {
          "file" : "lib/Perl/Tidy/Sweet.pm",
-         "version" : "0.18"
+         "version" : "0.19"
       },
       "Perl::Tidy::Sweetened" : {
          "file" : "lib/Perl/Tidy/Sweetened.pm",
-         "version" : "0.18"
+         "version" : "0.19"
       }
    },
    "release_status" : "stable",
@@ -55,5 +55,5 @@
          "url" : "http://github.com/mvgrimes/perl-tidy-sweetened"
       }
    },
-   "version" : "0.18"
+   "version" : "0.19"
 }

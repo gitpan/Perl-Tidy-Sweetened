@@ -3,6 +3,8 @@ Changes
 lib/Perl/Tidy/Sweet.pm
 lib/Perl/Tidy/Sweetened.pm
 MANIFEST			This list of files
+META.json
+META.yml
 README
 README.md
 script/perltidier
@@ -23,5 +25,3 @@ xt/minimumversion.t
 xt/perlcriticrc
 xt/pod-coverage.t
 xt/pod.t
-META.yml
-META.json
