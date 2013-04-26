@@ -1,10 +1,10 @@
 Build.PL
 Changes
+lib/Perl/Tidy/Sweet.pm
 lib/Perl/Tidy/Sweetened.pm
 MANIFEST			This list of files
-META.json
-META.yml
 README
+README.md
 script/perltidier
 t/basic.t
 t/bugs.t
@@ -12,3 +12,16 @@ t/lib/TidierTests.pm
 t/method-signature-simple.t
 t/moosex-declare.t
 t/moosex-method-signatures.t
+xt/check-changes.t
+xt/critic.t
+xt/fixme.t
+xt/hasversion.t
+xt/kwalitee.t
+xt/manifest.t
+xt/meta.t
+xt/minimumversion.t
+xt/perlcriticrc
+xt/pod-coverage.t
+xt/pod.t
+META.yml
+META.json

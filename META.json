@@ -4,7 +4,7 @@
       "Mark Grimes, E<lt>mgrimes@cpan.orgE<gt>"
    ],
    "dynamic_config" : 1,
-   "generated_by" : "Module::Build version 0.4, CPAN::Meta::Converter version 2.120921",
+   "generated_by" : "Module::Build version 0.4004, CPAN::Meta::Converter version 2.120921",
    "license" : [
       "perl_5"
    ],
@@ -29,14 +29,18 @@
       "runtime" : {
          "requires" : {
             "Perl::Tidy" : "0",
-            "perl" : "5.010"
+            "perl" : "5.008"
          }
       }
    },
    "provides" : {
+      "Perl::Tidy::Sweet" : {
+         "file" : "lib/Perl/Tidy/Sweet.pm",
+         "version" : "0.18"
+      },
       "Perl::Tidy::Sweetened" : {
          "file" : "lib/Perl/Tidy/Sweetened.pm",
-         "version" : "0.17"
+         "version" : "0.18"
       }
    },
    "release_status" : "stable",
@@ -51,5 +55,5 @@
          "url" : "http://github.com/mvgrimes/perl-tidy-sweetened"
       }
    },
-   "version" : "0.17"
+   "version" : "0.18"
 }
