@@ -1,7 +1,10 @@
+.perltidyrc
 Build.PL
 Changes
 lib/Perl/Tidy/Sweet.pm
 lib/Perl/Tidy/Sweetened.pm
+lib/Perl/Tidy/Sweetened/Keyword/SubSignature.pm
+lib/Perl/Tidy/Sweetened/Pluggable.pm
 MANIFEST			This list of files
 META.json
 META.yml
@@ -14,6 +17,7 @@ t/lib/TidierTests.pm
 t/method-signature-simple.t
 t/moosex-declare.t
 t/moosex-method-signatures.t
+t2.pl
 xt/check-changes.t
 xt/critic.t
 xt/fixme.t

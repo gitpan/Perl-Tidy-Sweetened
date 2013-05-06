@@ -28,6 +28,7 @@
       },
       "runtime" : {
          "requires" : {
+            "Carp" : "0",
             "Perl::Tidy" : "0",
             "perl" : "5.010"
          }
@@ -40,7 +41,15 @@
       },
       "Perl::Tidy::Sweetened" : {
          "file" : "lib/Perl/Tidy/Sweetened.pm",
-         "version" : "0.19"
+         "version" : "0.20"
+      },
+      "Perl::Tidy::Sweetened::Keyword::SubSignature" : {
+         "file" : "lib/Perl/Tidy/Sweetened/Keyword/SubSignature.pm",
+         "version" : "0.20"
+      },
+      "Perl::Tidy::Sweetened::Pluggable" : {
+         "file" : "lib/Perl/Tidy/Sweetened/Pluggable.pm",
+         "version" : "0.20"
       }
    },
    "release_status" : "stable",
@@ -55,5 +64,5 @@
          "url" : "http://github.com/mvgrimes/perl-tidy-sweetened"
       }
    },
-   "version" : "0.19"
+   "version" : "0.20"
 }

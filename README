@@ -3,7 +3,7 @@ NAME
     sugar
 
 VERSION
-    version 0.19
+    version 0.20
 
 DESCRIPTION
     There are a number of modules on CPAN that allow users to write their
@@ -20,7 +20,8 @@ DESCRIPTION
     <https://metacpan.org/source/SHANCOCK/Perl-Tidy-20120714/CHANGES> file).
     The resulting formatted code will leave the parameter lists untouched.
 
-    "Perl::Tidy::Sweetened" attempts to support the syntax outlined in:
+    "Perl::Tidy::Sweetened" attempts to support the syntax outlined in the
+    following modules, but most of the new syntax styles should work:
 
     *   Method::Signature::Simple
 
@@ -31,9 +32,13 @@ DESCRIPTION
 SEE ALSO
     Perl::Tidy
 
+THANKS
     The idea and much of original code taken from Jonathan Swartz' blog
     <http://www.openswartz.com/2010/12/19/perltidy-and-method-happy-together
     />.
+
+    Kent Fredric refactored the code into the pluggable architecture. Very
+    nice work, thank you.
 
 BUGS
     Please report any bugs or suggestions at
