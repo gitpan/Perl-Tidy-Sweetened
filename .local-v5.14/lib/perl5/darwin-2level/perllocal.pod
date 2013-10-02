@@ -1,0 +1,880 @@
+=head2 Wed Oct  2 11:03:17 2013: C<Module> L<Algorithm::Diff|Algorithm::Diff>
+
+=over 4
+
+=item *
+
+C<installed into: /Users/mgrimes/src/perl-tidy-sweet/.local-v5.14/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 1.1902>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Oct  2 11:03:18 2013: C<Module> L<Text::Diff|Text::Diff>
+
+=over 4
+
+=item *
+
+C<installed into: /Users/mgrimes/src/perl-tidy-sweet/.local-v5.14/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 1.41>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Oct  2 11:03:23 2013: C<Module> L<Devel::StackTrace|Devel::StackTrace>
+
+=over 4
+
+=item *
+
+C<installed into: /Users/mgrimes/src/perl-tidy-sweet/.local-v5.14/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 1.30>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Oct  2 11:03:24 2013: C<Module> L<Class::Data::Inheritable|Class::Data::Inheritable>
+
+=over 4
+
+=item *
+
+C<installed into: /Users/mgrimes/src/perl-tidy-sweet/.local-v5.14/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.08>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Oct  2 11:03:25 2013: C<Module> L<Exception::Class|Exception::Class>
+
+=over 4
+
+=item *
+
+C<installed into: /Users/mgrimes/src/perl-tidy-sweet/.local-v5.14/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 1.37>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Oct  2 11:03:27 2013: C<Module> L<Carp|Carp>
+
+=over 4
+
+=item *
+
+C<installed into: /Users/mgrimes/src/perl-tidy-sweet/.local-v5.14/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 1.32>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Oct  2 11:03:29 2013: C<Module> L<Sub::Uplevel|Sub::Uplevel>
+
+=over 4
+
+=item *
+
+C<installed into: /Users/mgrimes/src/perl-tidy-sweet/.local-v5.14/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.24>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Oct  2 11:03:33 2013: C<Module> L<Cwd|Cwd>
+
+=over 4
+
+=item *
+
+C<installed into: /Users/mgrimes/src/perl-tidy-sweet/.local-v5.14/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 3.40>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Oct  2 11:03:36 2013: C<Module> L<File::Temp|File::Temp>
+
+=over 4
+
+=item *
+
+C<installed into: /Users/mgrimes/src/perl-tidy-sweet/.local-v5.14/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.2302>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Oct  2 11:03:37 2013: C<Module> L<File::Slurp|File::Slurp>
+
+=over 4
+
+=item *
+
+C<installed into: /Users/mgrimes/src/perl-tidy-sweet/.local-v5.14/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 9999.19>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Oct  2 11:03:39 2013: C<Module> L<Test::Warn|Test::Warn>
+
+=over 4
+
+=item *
+
+C<installed into: /Users/mgrimes/src/perl-tidy-sweet/.local-v5.14/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.24>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Oct  2 11:03:43 2013: C<Module> L<Test::Tester|Test::Tester>
+
+=over 4
+
+=item *
+
+C<installed into: /Users/mgrimes/src/perl-tidy-sweet/.local-v5.14/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.109>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Oct  2 11:03:44 2013: C<Module> L<Test::NoWarnings|Test::NoWarnings>
+
+=over 4
+
+=item *
+
+C<installed into: /Users/mgrimes/src/perl-tidy-sweet/.local-v5.14/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 1.04>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Oct  2 11:03:45 2013: C<Module> L<Test::Deep|Test::Deep>
+
+=over 4
+
+=item *
+
+C<installed into: /Users/mgrimes/src/perl-tidy-sweet/.local-v5.14/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.110>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Oct  2 11:03:49 2013: C<Module> L<Perl::Tidy|Perl::Tidy>
+
+=over 4
+
+=item *
+
+C<installed into: /Users/mgrimes/src/perl-tidy-sweet/.local-v5.14/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 20130922>
+
+=item *
+
+C<EXE_FILES: bin/perltidy>
+
+=back
+
+=head2 Wed Oct  2 11:10:41 2013: C<Module> L<Perl::Tidy|Perl::Tidy>
+
+=over 4
+
+=item *
+
+C<installed into: /Users/mgrimes/src/perl-tidy-sweet/.local-v5.14/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 20130805>
+
+=item *
+
+C<EXE_FILES: bin/perltidy>
+
+=back
+
+=head2 Wed Oct  2 11:11:10 2013: C<Module> L<Perl::Tidy|Perl::Tidy>
+
+=over 4
+
+=item *
+
+C<installed into: /Users/mgrimes/src/perl-tidy-sweet/.local-v5.14/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 20130717>
+
+=item *
+
+C<EXE_FILES: bin/perltidy>
+
+=back
+
+=head2 Wed Oct  2 11:11:38 2013: C<Module> L<Perl::Tidy|Perl::Tidy>
+
+=over 4
+
+=item *
+
+C<installed into: /Users/mgrimes/src/perl-tidy-sweet/.local-v5.14/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 20130805>
+
+=item *
+
+C<EXE_FILES: bin/perltidy>
+
+=back
+
+=head2 Wed Oct  2 11:11:59 2013: C<Module> L<Perl::Tidy|Perl::Tidy>
+
+=over 4
+
+=item *
+
+C<installed into: /Users/mgrimes/src/perl-tidy-sweet/.local-v5.14/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 20121207>
+
+=item *
+
+C<EXE_FILES: bin/perltidy>
+
+=back
+
+=head2 Wed Oct  2 11:12:20 2013: C<Module> L<Perl::Tidy|Perl::Tidy>
+
+=over 4
+
+=item *
+
+C<installed into: /Users/mgrimes/src/perl-tidy-sweet/.local-v5.14/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 20120701>
+
+=item *
+
+C<EXE_FILES: bin/perltidy>
+
+=back
+
+=head2 Wed Oct  2 11:12:40 2013: C<Module> L<Perl::Tidy|Perl::Tidy>
+
+=over 4
+
+=item *
+
+C<installed into: /Users/mgrimes/src/perl-tidy-sweet/.local-v5.14/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 20101217>
+
+=item *
+
+C<EXE_FILES: bin/perltidy>
+
+=back
+
+=head2 Wed Oct  2 11:15:27 2013: C<Module> L<Perl::Tidy|Perl::Tidy>
+
+=over 4
+
+=item *
+
+C<installed into: /Users/mgrimes/src/perl-tidy-sweet/.local-v5.14/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 20090616>
+
+=item *
+
+C<EXE_FILES: bin/perltidy>
+
+=back
+
+=head2 Wed Oct  2 11:19:41 2013: C<Module> L<Perl::Tidy|Perl::Tidy>
+
+=over 4
+
+=item *
+
+C<installed into: /Users/mgrimes/src/perl-tidy-sweet/.local-v5.14/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 20130922>
+
+=item *
+
+C<EXE_FILES: bin/perltidy>
+
+=back
+
+=head2 Wed Oct  2 11:53:41 2013: C<Module> L<Clone::PP|Clone::PP>
+
+=over 4
+
+=item *
+
+C<installed into: /Users/mgrimes/src/perl-tidy-sweet/.local-v5.14/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 1.02>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Oct  2 11:53:45 2013: C<Module> L<Probe::Perl|Probe::Perl>
+
+=over 4
+
+=item *
+
+C<installed into: /Users/mgrimes/src/perl-tidy-sweet/.local-v5.14/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.03>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Oct  2 11:53:47 2013: C<Module> L<IPC::Run3|IPC::Run3>
+
+=over 4
+
+=item *
+
+C<installed into: /Users/mgrimes/src/perl-tidy-sweet/.local-v5.14/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.046>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Oct  2 11:53:47 2013: C<Module> L<Test::Script|Test::Script>
+
+=over 4
+
+=item *
+
+C<installed into: /Users/mgrimes/src/perl-tidy-sweet/.local-v5.14/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 1.07>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Oct  2 11:53:49 2013: C<Module> L<File::Which|File::Which>
+
+=over 4
+
+=item *
+
+C<installed into: /Users/mgrimes/src/perl-tidy-sweet/.local-v5.14/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 1.09>
+
+=item *
+
+C<EXE_FILES: script/pwhich>
+
+=back
+
+=head2 Wed Oct  2 11:53:50 2013: C<Module> L<File::HomeDir|File::HomeDir>
+
+=over 4
+
+=item *
+
+C<installed into: /Users/mgrimes/src/perl-tidy-sweet/.local-v5.14/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 1.00>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Oct  2 11:53:56 2013: C<Module> L<Try::Tiny|Try::Tiny>
+
+=over 4
+
+=item *
+
+C<installed into: /Users/mgrimes/src/perl-tidy-sweet/.local-v5.14/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.18>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Oct  2 11:53:57 2013: C<Module> L<Test::Fatal|Test::Fatal>
+
+=over 4
+
+=item *
+
+C<installed into: /Users/mgrimes/src/perl-tidy-sweet/.local-v5.14/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.013>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Oct  2 11:54:00 2013: C<Module> L<List::MoreUtils|List::MoreUtils>
+
+=over 4
+
+=item *
+
+C<installed into: /Users/mgrimes/src/perl-tidy-sweet/.local-v5.14/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.33>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Oct  2 11:54:01 2013: C<Module> L<Dist::CheckConflicts|Dist::CheckConflicts>
+
+=over 4
+
+=item *
+
+C<installed into: /Users/mgrimes/src/perl-tidy-sweet/.local-v5.14/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.09>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Oct  2 11:54:08 2013: C<Module> L<ExtUtils::MakeMaker|ExtUtils::MakeMaker>
+
+=over 4
+
+=item *
+
+C<installed into: /Users/mgrimes/src/perl-tidy-sweet/.local-v5.14/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 6.78>
+
+=item *
+
+C<EXE_FILES: bin/instmodsh>
+
+=back
+
+=head2 Wed Oct  2 11:54:11 2013: C<Module> L<Package::Stash::XS|Package::Stash::XS>
+
+=over 4
+
+=item *
+
+C<installed into: /Users/mgrimes/src/perl-tidy-sweet/.local-v5.14/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.28>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Oct  2 11:54:13 2013: C<Module> L<Module::Implementation|Module::Implementation>
+
+=over 4
+
+=item *
+
+C<installed into: /Users/mgrimes/src/perl-tidy-sweet/.local-v5.14/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.07>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Oct  2 11:54:14 2013: C<Module> L<Package::Stash|Package::Stash>
+
+=over 4
+
+=item *
+
+C<installed into: /Users/mgrimes/src/perl-tidy-sweet/.local-v5.14/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.36>
+
+=item *
+
+C<EXE_FILES: bin/package-stash-conflicts>
+
+=back
+
+=head2 Wed Oct  2 11:54:16 2013: C<Module> L<Sort::Naturally|Sort::Naturally>
+
+=over 4
+
+=item *
+
+C<installed into: /Users/mgrimes/src/perl-tidy-sweet/.local-v5.14/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 1.03>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Oct  2 11:54:17 2013: C<Module> L<Data::Printer|Data::Printer>
+
+=over 4
+
+=item *
+
+C<installed into: /Users/mgrimes/src/perl-tidy-sweet/.local-v5.14/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.35>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Oct  2 12:43:44 2013: C<Module> L<JSON|JSON>
+
+=over 4
+
+=item *
+
+C<installed into: /Users/mgrimes/src/perl-tidy-sweet/.local-v5.14/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 2.59>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+

@@ -5,7 +5,7 @@ package Perl::Tidy::Sweetened::Pluggable;
 use strict;
 use warnings;
 
-our $VERSION = '0.20';
+our $VERSION = '0.21';
 
 sub new {
     my ( $class, %args ) = @_;
@@ -24,11 +24,19 @@ sub prefilter {
     for my $filter ( @{ $self->filters } ) {
         $code = $filter->prefilter($code);
     }
+
+    # warn "After prefilter, before tidy\n";
+    # warn $code;
+
     return $code;
 }
 
 sub postfilter {
     my ( $self, $code ) = @_;
+
+    # warn "After tidy, before postfilter\n";
+    # warn $code;
+
     for my $filter ( @{ $self->filters } ) {
         $code = $filter->postfilter($code);
     }
@@ -47,7 +55,7 @@ Perl::Tidy::Sweetened::Pluggable - Simple object to facilitate a pluggable filte
 
 =head1 VERSION
 
-version 0.20
+version 0.21
 
 =head1 SYNOPSIS
 

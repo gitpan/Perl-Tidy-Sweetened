@@ -3,7 +3,7 @@ NAME
     sugar
 
 VERSION
-    version 0.20
+    version 0.21
 
 DESCRIPTION
     There are a number of modules on CPAN that allow users to write their
@@ -22,6 +22,8 @@ DESCRIPTION
 
     "Perl::Tidy::Sweetened" attempts to support the syntax outlined in the
     following modules, but most of the new syntax styles should work:
+
+    *   p5-mop
 
     *   Method::Signature::Simple
 
