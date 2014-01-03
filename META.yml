@@ -18,19 +18,19 @@ name: Perl-Tidy-Sweetened
 provides:
   Perl::Tidy::Sweet:
     file: lib/Perl/Tidy/Sweet.pm
-    version: 0.22
+    version: 0.23
   Perl::Tidy::Sweetened:
     file: lib/Perl/Tidy/Sweetened.pm
-    version: 0.22
+    version: 0.23
   Perl::Tidy::Sweetened::Keyword::Block:
     file: lib/Perl/Tidy/Sweetened/Keyword/Block.pm
-    version: 0.22
+    version: 0.23
   Perl::Tidy::Sweetened::Pluggable:
     file: lib/Perl/Tidy/Sweetened/Pluggable.pm
-    version: 0.22
+    version: 0.23
   Perl::Tidy::Sweetened::Variable::Twigils:
     file: lib/Perl/Tidy/Sweetened/Variable/Twigils.pm
-    version: 0.22
+    version: 0.23
 requires:
   Carp: 0
   Perl::Tidy: 0
@@ -39,4 +39,4 @@ resources:
   bugtracker: http://rt.cpan.org/NoAuth/Bugs.html?Dist=Perl-Tidy-Sweetened
   license: http://dev.perl.org/licenses/
   repository: http://github.com/mvgrimes/perl-tidy-sweetened
-version: 0.22
+version: 0.23

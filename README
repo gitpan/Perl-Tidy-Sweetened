@@ -3,7 +3,7 @@ NAME
     sugar
 
 VERSION
-    version 0.22
+    version 0.23
 
 DESCRIPTION
     There are a number of modules on CPAN that allow users to write their
@@ -50,7 +50,7 @@ AUTHOR
     Mark Grimes, <mgrimes@cpan.org>
 
 COPYRIGHT AND LICENSE
-    This software is copyright (c) 2013 by Mark Grimes, <mgrimes@cpan.org>.
+    This software is copyright (c) 2014 by Mark Grimes, <mgrimes@cpan.org>.
 
     This is free software; you can redistribute it and/or modify it under
     the same terms as the Perl 5 programming language system itself.
