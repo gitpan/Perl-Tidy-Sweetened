@@ -8,7 +8,7 @@ use warnings;
 use Carp;
 $|++;
 
-our $VERSION = '0.23';
+our $VERSION = '0.24';
 
 # Regex to match balanced parans. Reproduced from Regexp::Common to avoid
 # adding a non-core dependency.
@@ -71,14 +71,21 @@ sub clauses {
     return $clause_re;
 }
 
+sub identifier {  # method or package identifier
+    my $self = shift;
+
+    return '\w+ (?: ::\w+ )*';  # words, possibly separated by ::
+}
+
 sub prefilter {
     my ( $self, $code ) = @_;
     my $keyword = $self->keyword;
+    my $subname = $self->identifier;
 
     $code =~ s{
         ^\s*\K                    # okay to have leading whitespace (preserve)
         $keyword             \s+  # the "func/method" keyword
-        (?<subname> \w+)     \s*  # the function name
+        (?<subname> $subname) \s* # the function name or class name (needs ::)
         @{[ $self->clauses ]}     # any clauses defined (ie, a parameter list)
         (?<brace> .*?)            # anything else (ie, comments) including brace
         $
@@ -100,12 +107,13 @@ sub postfilter {
     my ( $self, $code ) = @_;
     my $marker      = $self->marker;
     my $replacement = $self->replacement;
+    my $subname     = $self->identifier;
 
     # Convert back to method
     $code =~ s{
         ^\s*\K                 # preserve leading whitespace
         $replacement      \s+  # keyword was convert to sub
-        (?<subname> \w+ ) \b   # the method name and a word break
+        (?<subname> $subname) \b # the method name and a word break
         (?<brace> .*? )   \s*  # anything orig following the declaration
         \#__$marker \s+        # our magic token
         (?<id> \d+)            # our sub identifier
@@ -118,7 +126,7 @@ sub postfilter {
     $code =~ s{
         ^\s*\K                   # preserve leading whitespace
         $replacement        \s+  # method was converted to sub
-        (?<subname> \w+)\n  \s*  # the method name and a newline
+        (?<subname> $subname) \n \s* # the method name and a newline
         (?<brace> \{ .*?)   [ ]* # opening brace on newline followed orig comments
         \#__$marker         \s+  # our magic token
         (?<id> \d+)              # our sub identifier
@@ -142,7 +150,7 @@ Perl::Tidy::Sweetened::Keyword::Block - Perl::Tidy::Sweetened filter plugin to d
 
 =head1 VERSION
 
-version 0.23
+version 0.24
 
 =head1 SYNOPSIS
 
