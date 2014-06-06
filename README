@@ -3,7 +3,7 @@ NAME
     sugar
 
 VERSION
-    version 0.24
+    version 0.25
 
 DESCRIPTION
     There are a number of modules on CPAN that allow users to write their
@@ -25,7 +25,7 @@ DESCRIPTION
 
     *   p5-mop
 
-    *   Method::Signature::Simple
+    *   Method::Signatures::Simple
 
     *   MooseX::Method::Signatures
 

@@ -7,7 +7,7 @@ use strict;
 use warnings;
 use Perl::Tidy qw();
 
-our $VERSION = '0.24';
+our $VERSION = '0.25';
 
 use Perl::Tidy::Sweetened::Pluggable;
 use Perl::Tidy::Sweetened::Keyword::Block;
@@ -77,7 +77,7 @@ Perl::Tidy::Sweetened - Tweaks to Perl::Tidy to support some syntactic sugar
 
 =head1 VERSION
 
-version 0.24
+version 0.25
 
 =head1 DESCRIPTION
 
@@ -102,7 +102,7 @@ following modules, but most of the new syntax styles should work:
 
 =item * p5-mop
 
-=item * Method::Signature::Simple
+=item * Method::Signatures::Simple
 
 =item * MooseX::Method::Signatures
 
