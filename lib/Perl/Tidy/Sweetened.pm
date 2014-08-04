@@ -7,7 +7,7 @@ use strict;
 use warnings;
 use Perl::Tidy qw();
 
-our $VERSION = '0.25';
+our $VERSION = '0.26';
 
 use Perl::Tidy::Sweetened::Pluggable;
 use Perl::Tidy::Sweetened::Keyword::Block;
@@ -46,7 +46,8 @@ $plugins->add_filter(
         keyword     => 'class',
         marker      => 'CLASS',
         replacement => 'package',
-        clauses     => [ '(with(\s+\w+)*)?', '(extends \s+ \w+)?' ],
+        clauses =>
+          [ '(with(\s+\w+)*)?', '(extends \s+ \w+)?', '(is(\s+\w+)*)?', ],
     ) );
 
 # Create a twigil filter for:
@@ -77,7 +78,7 @@ Perl::Tidy::Sweetened - Tweaks to Perl::Tidy to support some syntactic sugar
 
 =head1 VERSION
 
-version 0.25
+version 0.26
 
 =head1 DESCRIPTION
 

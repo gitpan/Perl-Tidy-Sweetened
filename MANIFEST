@@ -10,10 +10,12 @@ script/perltidier
 t/basic.t
 t/bugs.t
 t/lib/TidierTests.pm
+t/method-sig-annon-func.t
 t/method-signature-simple.t
 t/moosex-declare.t
 t/moosex-method-signatures.t
 t/p5-mop.t
+t/perl-5.20.t
 xt/check-changes.t
 xt/critic.t
 xt/fixme.t
