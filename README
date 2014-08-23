@@ -3,7 +3,7 @@ NAME
     sugar
 
 VERSION
-    version 1.00
+    version 1.01
 
 DESCRIPTION
     There are a number of modules on CPAN that allow users to write their
@@ -30,6 +30,12 @@ DESCRIPTION
     *   MooseX::Method::Signatures
 
     *   MooseX::Declare
+
+    *   Moops
+
+    *   MooseX::Declare
+
+    *   perl 5.20 signatures
 
 SEE ALSO
     Perl::Tidy
