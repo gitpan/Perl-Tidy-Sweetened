@@ -7,13 +7,24 @@ use strict;
 use warnings;
 use Perl::Tidy qw();
 
-our $VERSION = '1.01';
+our $VERSION = '1.02';
 
 use Perl::Tidy::Sweetened::Pluggable;
 use Perl::Tidy::Sweetened::Keyword::Block;
 use Perl::Tidy::Sweetened::Variable::Twigils;
 
 our $plugins = Perl::Tidy::Sweetened::Pluggable->new();
+
+# Create a subroutine filter for:
+#    sub foo ($i, $j) {}
+# where both the parameter list and the returns type are optional
+$plugins->add_filter(
+    Perl::Tidy::Sweetened::Keyword::Block->new(
+        keyword     => 'sub',
+        marker      => 'SUB',
+        replacement => 'sub',
+        clauses     => [ 'PAREN?' ],
+    ) );
 
 # Create a subroutine filter for:
 #    func foo (Int $i) returns (Bool) {}
@@ -78,7 +89,7 @@ Perl::Tidy::Sweetened - Tweaks to Perl::Tidy to support some syntactic sugar
 
 =head1 VERSION
 
-version 1.01
+version 1.02
 
 =head1 DESCRIPTION
 
